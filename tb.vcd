@@ -1,0 +1,990 @@
+$date
+  Mon Mar 25 00:47:12 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module me_tb $end
+$var reg 1 ! srst $end
+$var reg 1 " sclk $end
+$var reg 1 # m_50 $end
+$var reg 1 $ m_25 $end
+$var reg 1 % disp $end
+$var reg 1 & cof $end
+$var reg 1 ' blok $end
+$var reg 1 ( dev $end
+$scope module u_me $end
+$var reg 1 ) rst $end
+$var reg 1 * clk $end
+$var reg 1 + m_50 $end
+$var reg 1 , m_25 $end
+$var reg 1 - disp $end
+$var reg 1 . cof $end
+$var reg 1 / blok $end
+$var reg 1 0 dev $end
+$var reg 3 1 spe_reg[2:0] $end
+$var reg 3 2 sreg_ea[2:0] $end
+$scope module u_fpe $end
+$var reg 3 3 ea[2:0] $end
+$var reg 1 4 m_50 $end
+$var reg 1 5 m_25 $end
+$var reg 3 6 pe[2:0] $end
+$upscope $end
+$scope module u_reg $end
+$var reg 3 7 din[2:0] $end
+$var reg 1 8 cl $end
+$var reg 1 9 clk $end
+$var reg 3 : dout[2:0] $end
+$scope module reg(0) $end
+$scope module r $end
+$var reg 1 ; d $end
+$var reg 1 < clk $end
+$var reg 1 = pr $end
+$var reg 1 > cl $end
+$var reg 1 ? q $end
+$var reg 1 @ nq $end
+$var reg 1 A sq $end
+$var reg 1 B snq $end
+$var reg 1 C nj $end
+$scope module u_td $end
+$var reg 1 D j $end
+$var reg 1 E k $end
+$var reg 1 F clk $end
+$var reg 1 G pr $end
+$var reg 1 H cl $end
+$var reg 1 I q $end
+$var reg 1 J nq $end
+$var reg 1 K sq $end
+$var reg 1 L snq $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module reg(1) $end
+$scope module r $end
+$var reg 1 M d $end
+$var reg 1 N clk $end
+$var reg 1 O pr $end
+$var reg 1 P cl $end
+$var reg 1 Q q $end
+$var reg 1 R nq $end
+$var reg 1 S sq $end
+$var reg 1 T snq $end
+$var reg 1 U nj $end
+$scope module u_td $end
+$var reg 1 V j $end
+$var reg 1 W k $end
+$var reg 1 X clk $end
+$var reg 1 Y pr $end
+$var reg 1 Z cl $end
+$var reg 1 [ q $end
+$var reg 1 \ nq $end
+$var reg 1 ] sq $end
+$var reg 1 ^ snq $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module reg(2) $end
+$scope module r $end
+$var reg 1 _ d $end
+$var reg 1 ` clk $end
+$var reg 1 a pr $end
+$var reg 1 b cl $end
+$var reg 1 c q $end
+$var reg 1 d nq $end
+$var reg 1 e sq $end
+$var reg 1 f snq $end
+$var reg 1 g nj $end
+$scope module u_td $end
+$var reg 1 h j $end
+$var reg 1 i k $end
+$var reg 1 j clk $end
+$var reg 1 k pr $end
+$var reg 1 l cl $end
+$var reg 1 m q $end
+$var reg 1 n nq $end
+$var reg 1 o sq $end
+$var reg 1 p snq $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module u_sea $end
+$var reg 3 q ea[2:0] $end
+$var reg 1 r disp $end
+$var reg 1 s cof $end
+$var reg 1 t blok $end
+$var reg 1 u dev $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+b000 1
+b000 2
+b000 3
+04
+05
+b000 6
+b000 7
+08
+09
+b000 :
+0;
+0<
+1=
+0>
+0?
+1@
+0A
+1B
+1C
+0D
+1E
+0F
+1G
+0H
+0I
+1J
+0K
+1L
+0M
+0N
+1O
+0P
+0Q
+1R
+0S
+1T
+1U
+0V
+1W
+0X
+1Y
+0Z
+0[
+1\
+0]
+1^
+0_
+0`
+1a
+0b
+0c
+1d
+0e
+1f
+1g
+0h
+1i
+0j
+1k
+0l
+0m
+1n
+0o
+1p
+b000 q
+0r
+0s
+0t
+0u
+#10000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#20000000
+1!
+0"
+1$
+1)
+0*
+1,
+b010 1
+15
+b010 6
+b010 7
+18
+09
+0<
+1>
+0F
+1H
+1M
+0N
+1P
+0U
+1V
+0W
+0X
+1Z
+0`
+1b
+0j
+1l
+#30000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#40000000
+0"
+1#
+0$
+0*
+1+
+0,
+b011 1
+b010 2
+b010 3
+14
+05
+b011 6
+b011 7
+09
+b010 :
+1;
+0<
+0C
+1D
+0E
+0F
+1M
+0N
+1Q
+0R
+0U
+1V
+0W
+0X
+1[
+0\
+1]
+0^
+0`
+0j
+b010 q
+#50000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#60000000
+0"
+0#
+1$
+1'
+0*
+0+
+1,
+1/
+b101 1
+b011 2
+b011 3
+04
+15
+b101 6
+b101 7
+09
+b011 :
+0<
+1?
+0@
+0F
+1I
+0J
+1K
+0L
+0M
+0N
+1U
+0V
+1W
+0X
+1_
+0`
+0g
+1h
+0i
+0j
+b011 q
+1t
+#70000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#80000000
+0"
+0$
+1%
+1&
+0*
+0,
+1-
+1.
+b000 1
+b101 2
+b101 3
+05
+b000 6
+b000 7
+09
+b101 :
+0;
+0<
+1C
+0D
+1E
+0F
+0M
+0N
+0Q
+1R
+1U
+0V
+1W
+0X
+0[
+1\
+0]
+1^
+0_
+0`
+1c
+0d
+1g
+0h
+1i
+0j
+1m
+0n
+1o
+0p
+b101 q
+1r
+1s
+#90000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#100000000
+0"
+1#
+0%
+0&
+0'
+0*
+1+
+0-
+0.
+0/
+b001 1
+b000 2
+b000 3
+14
+b001 6
+b001 7
+09
+b000 :
+1;
+0<
+0?
+1@
+0C
+1D
+0E
+0F
+0I
+1J
+0K
+1L
+0N
+0X
+0`
+0c
+1d
+0j
+0m
+1n
+0o
+1p
+b000 q
+0r
+0s
+0t
+#110000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#120000000
+0"
+0*
+b100 1
+b001 2
+b001 3
+b100 6
+b100 7
+09
+b001 :
+0;
+0<
+1?
+0@
+1C
+0D
+1E
+0F
+1I
+0J
+1K
+0L
+0N
+0X
+1_
+0`
+0g
+1h
+0i
+0j
+b001 q
+#130000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#140000000
+0"
+0#
+1%
+1&
+1'
+0*
+0+
+1-
+1.
+1/
+b000 1
+b100 2
+b100 3
+04
+b000 6
+b000 7
+09
+b100 :
+0<
+0?
+1@
+0F
+0I
+1J
+0K
+1L
+0N
+0X
+0_
+0`
+1c
+0d
+1g
+0h
+1i
+0j
+1m
+0n
+1o
+0p
+b100 q
+1r
+1s
+1t
+#150000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#160000000
+0"
+1$
+0%
+0&
+0'
+0*
+1,
+0-
+0.
+0/
+b010 1
+b000 2
+b000 3
+15
+b010 6
+b010 7
+09
+b000 :
+0<
+0F
+1M
+0N
+0U
+1V
+0W
+0X
+0`
+0c
+1d
+0j
+0m
+1n
+0o
+1p
+b000 q
+0r
+0s
+0t
+#170000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#180000000
+0"
+0*
+b001 1
+b010 2
+b010 3
+b001 6
+b001 7
+09
+b010 :
+1;
+0<
+0C
+1D
+0E
+0F
+0M
+0N
+1Q
+0R
+1U
+0V
+1W
+0X
+1[
+0\
+1]
+0^
+0`
+0j
+b010 q
+#190000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#200000000
+0"
+1#
+0$
+0*
+1+
+0,
+b100 1
+b001 2
+b001 3
+14
+05
+b100 6
+b100 7
+09
+b001 :
+0;
+0<
+1?
+0@
+1C
+0D
+1E
+0F
+1I
+0J
+1K
+0L
+0M
+0N
+0Q
+1R
+1U
+0V
+1W
+0X
+0[
+1\
+0]
+1^
+1_
+0`
+0g
+1h
+0i
+0j
+b001 q
+#210000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#220000000
+0"
+1%
+1&
+1'
+0*
+1-
+1.
+1/
+b001 1
+b100 2
+b100 3
+b001 6
+b001 7
+09
+b100 :
+1;
+0<
+0?
+1@
+0C
+1D
+0E
+0F
+0I
+1J
+0K
+1L
+0N
+0X
+0_
+0`
+1c
+0d
+1g
+0h
+1i
+0j
+1m
+0n
+1o
+0p
+b100 q
+1r
+1s
+1t
+#230000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#240000000
+0"
+0#
+0%
+0&
+0'
+0*
+0+
+0-
+0.
+0/
+b000 1
+b001 2
+b001 3
+04
+b000 6
+b000 7
+09
+b001 :
+0;
+0<
+1?
+0@
+1C
+0D
+1E
+0F
+1I
+0J
+1K
+0L
+0N
+0X
+0`
+0c
+1d
+0j
+0m
+1n
+0o
+1p
+b001 q
+0r
+0s
+0t
+#250000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#260000000
+0"
+0*
+b000 2
+b000 3
+09
+b000 :
+0<
+0?
+1@
+0F
+0I
+1J
+0K
+1L
+0N
+0X
+0`
+0j
+b000 q
+#270000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#280000000
+0"
+0*
+09
+0<
+0F
+0N
+0X
+0`
+0j
+#290000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#300000000
+0"
+0*
+09
+0<
+0F
+0N
+0X
+0`
+0j
+#310000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#320000000
+0"
+0*
+09
+0<
+0F
+0N
+0X
+0`
+0j
+#330000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#340000000
+0"
+0*
+09
+0<
+0F
+0N
+0X
+0`
+0j
+#350000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#360000000
+0"
+0*
+09
+0<
+0F
+0N
+0X
+0`
+0j
+#370000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#380000000
+0"
+0*
+09
+0<
+0F
+0N
+0X
+0`
+0j
+#390000000
+1"
+1*
+19
+1<
+1F
+1N
+1X
+1`
+1j
+#400000000
+0"
+0*
+09
+0<
+0F
+0N
+0X
+0`
+0j

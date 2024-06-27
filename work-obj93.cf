@@ -1,0 +1,23 @@
+v 4
+file . "tb_maq.vhdl" "3a842a51ff06f8e272417388d70d96a9d8ee2c13" "20240325034710.395":
+  entity me_tb at 6( 108) + 0 on 199;
+  architecture search4coffe of me_tb at 13( 207) + 0 on 200;
+file . "00-ffJKTD.vhdl" "d4b412e6b4e0db48c84417e421e401565e2bf8dd" "20240325034710.389":
+  entity ffjk at 2( 70) + 0 on 185;
+  architecture latch of ffjk at 14( 316) + 0 on 186;
+  entity ffd at 72( 2349) + 0 on 187;
+  architecture latch of ffd at 84( 2594) + 0 on 188;
+  entity fft at 107( 3127) + 0 on 189;
+  architecture latch of fft at 119( 3372) + 0 on 190;
+file . "maquina_chocolate.vhdl" "75cea206383a1be877a62ae38b60d176742d7d1f" "20240325034710.390":
+  entity me at 1( 0) + 0 on 191;
+  architecture doit of me at 12( 224) + 0 on 192;
+file . "mqea.vhdl" "588cbcbb217fcf04c3839d4a4fefb62911946885" "20240325034710.390":
+  entity mqea at 3( 26) + 0 on 193;
+  architecture est of mqea at 13( 299) + 0 on 194;
+file . "mqpe.vhdl" "a220d7fea8c620f55fd06e346041212450c6f355" "20240325034710.391":
+  entity mqpe at 2( 19) + 0 on 195;
+  architecture est of mqpe at 12( 325) + 0 on 196;
+file . "reg.vhdl" "0bed5ffc114f75ea7bbfd2948985aad1decb976b" "20240325034710.392":
+  entity regcarga3bit at 1( 0) + 0 on 197;
+  architecture storage of regcarga3bit at 12( 231) + 0 on 198;
